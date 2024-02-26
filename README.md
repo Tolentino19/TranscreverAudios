@@ -14,7 +14,7 @@ Como utilizar:
 
 7º Vai abrir uma janela pedindo para você escolher a pasta de origem onde estão os áudios que você quer transcrever
 
-8º Logo após selecionar a origem já vai abrir outra pedindo para escolher a pasta onde você quer salvar as transcrições, apoós selecionar é só aguardar
+8º Logo após selecionar a origem já vai abrir outra pedindo para escolher a pasta onde você quer salvar as transcrições, após selecionar é só aguardar
 
 9º Ao finalizar as transcrições irá aparecer "Todas as transcrições foram finalizadas" na interface
 
