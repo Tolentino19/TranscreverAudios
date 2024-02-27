@@ -4,7 +4,7 @@ from datetime import datetime
 
 def transcribe_folder(input_folder, output_folder, update_status):
     # Load the model
-    model = whisper.load_model("base")
+    model = whisper.load_model("tiny")
 
     # Get the list of audio files
     audio_files = [f for f in os.listdir(input_folder)]
@@ -18,7 +18,7 @@ def transcribe_folder(input_folder, output_folder, update_status):
             audio_path = os.path.join(input_folder, audio_file)
 
             # Transcribe the audio file
-            result = model.transcribe(audio_path)
+            result = model.transcribe(audio_path, fp16=false)
 
             # Get the transcription text
             transcription = result["text"]
